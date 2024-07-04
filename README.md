@@ -1,7 +1,5 @@
-# 🕹️ TELNET.LIVE
- Python powered website using flask to display html and handle routing hosted in a RPI 4
-
-More will come to this project as is it a home for my work
+# 🕹️ sPy
+ Python powered website using flask to display the port status's from a server address
 
 If you want to alter or add to this script please feel free to do so
 
@@ -15,7 +13,7 @@ Follow these steps
 
 ```bash
 # Goto Dir
-$ cd telnet.live
+$ cd sPy
 
 # Install Requirements
 $ pip install requirements.txt
@@ -27,19 +25,16 @@ $ python -m flask run
 
 ## 📕 Reference 
 - Flask - https://flask.palletsprojects.com/en/3.0.x/
+- Socket - https://docs.python.org/3/library/socket.html
 
 ## 📝 Todo (maybe)
-- Guide for RPI/VPS installation (Self/Paid Hosting)
-- Add a protected route like a login page or members area
-- Integrate other python projects to make a hub for my work
-- SteamAPI steamyFlask integration 
-
-## 📜 steamyFlask API
-- `/api/v1/sf/level/?steam_id=STEAMIDHERE` <br>
-↳ Returns the level of the steamid supplied
-- `/api/v1/sf/level/needed_xp/?steam_id=STEAMIDHERE` <br>
-↳ Returns the amount of xp needed to rank up the the next rank based of the steamid supplied
-- `/api/v1/sf/level/total_xp/?steam_id=STEAMIDHERE` <br>
-↳ Returns the total xp earned from the steamid supplied
+- [x] Socket error handling
+- [x] Make it a class 
+- [x] Display multiple results on frontend 
+- [x] Display closed and open ports in different tabs
+- [-] Make it faster somehow
+- [x] Search for a single port
+- [-] Search for most popular ports (ex. 22,23,80,8080)
+- [x] Search for a range of ports (Function made but slow)
 
 
