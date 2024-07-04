@@ -35,6 +35,6 @@ $ python -m flask run
 - [] Make it faster somehow
 - [x] Search for a single port
 - [] Search for most popular ports (ex. 22,23,80,8080)
-- [x] Search for a range of ports (Function made but slow)
+- [] Search for a range of ports (Function made but slow)
 
 
