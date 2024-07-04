@@ -52,8 +52,7 @@ class pscan:
             print ("Couldn't connect to server")
             sys.exit()
 
-    # Port scan function we provide a server address and it will scan 255 ports and check if there open
-    # This is super slow needs to be improved adnd worked on
+    # Port scan function we provide a server address and it will scan a provided port and check if its open 
     def do_sing_scan(server_address, server_port):
         # Im using a try statement so i can catch the errors without python breaking
         try:
