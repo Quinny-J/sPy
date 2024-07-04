@@ -3,6 +3,9 @@
 
 If you want to alter or add to this script please feel free to do so
 
+> Disclaimer: Please only use this on your own system/network.
+> if not you could end up in trouble
+
 ![PICTURE](https://raw.githubusercontent.com/Quinny-J/spy/main/image.png)
 
 # ⚡ Getting Started
