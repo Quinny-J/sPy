@@ -32,9 +32,9 @@ $ python -m flask run
 - [x] Make it a class 
 - [x] Display multiple results on frontend 
 - [x] Display closed and open ports in different tabs
-- [-] Make it faster somehow
+- [] Make it faster somehow
 - [x] Search for a single port
-- [-] Search for most popular ports (ex. 22,23,80,8080)
+- [] Search for most popular ports (ex. 22,23,80,8080)
 - [x] Search for a range of ports (Function made but slow)
 
 
