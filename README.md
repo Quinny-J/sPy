@@ -3,7 +3,7 @@
 
 If you want to alter or add to this script please feel free to do so
 
-![PICTURE](https://raw.githubusercontent.com/Quinny-J/telnet.live/main/snap.png)
+![PICTURE](https://raw.githubusercontent.com/Quinny-J/spy/main/image.png)
 
 # ⚡ Getting Started
 
