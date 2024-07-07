@@ -21,7 +21,7 @@ class pscan:
 
 
     # Port scan function we provide a server address and it will scan 255 ports and check if there open
-    # This is super slow needs to be improved adnd worked on
+    # This is super slow needs to be improved adnd worked on maybe threading might solve the issue 
     def do_range_scan(server_address):
         # Im using a try statement so i can catch the errors without python breaking
         try:
